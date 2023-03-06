@@ -1,0 +1,65 @@
+.clima-title{
+    text-align: center;
+    color: rgb(64, 64, 197);
+}
+.clima-select{
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+    outline-color: #b8b8b8;
+    color: #333;
+}
+
+.clima-option{
+    font-size: 0.9rem;
+    text-transform: lowercase;
+}
+
+.clima-option:hover{
+    /* background-color: #b33a3a; */
+    color: #b8b8b8;
+}
+
+.clima-container{
+    margin-top: 16px;
+    /* background-color: lightcoral; */
+    min-height: auto;
+    position: relative;
+    /* box-shadow: 2px 2px 4px 4px #888888; */
+    border: 1px solid #b9b7b7;
+}
+
+.clima-subtitle{
+    text-transform: uppercase;
+}
+.clima-map-content{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    /* background-color: red; */
+}   
+.clima-atrr{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0px;
+}
+.clima-atrr span{
+    font-weight: bold;
+    color: #333;
+}
+
+.clima-atrr-item1{
+    display: flex;
+    justify-content: space-around;
+}
+.clima-atrr-item2{
+    display: flex;
+    justify-content: space-around;
+}
+.clima-frame-ref{
+    position: absolute;
+    bottom:10px;
+    margin-left: 16px;
+    color: #8d8d8d;
+    text-transform: lowercase;
+}
